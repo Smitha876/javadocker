@@ -28,7 +28,6 @@ pipeline {
         }
     }
     
-    // Ensure this 'post' block is BEFORE the final closing brace of the pipeline
     post {
         always {
             // This needs the 'node' context to run 'bat'
